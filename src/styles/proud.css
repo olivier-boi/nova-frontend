@@ -1,0 +1,30 @@
+.proud-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 0 5rem;
+}
+
+.proud-left{
+    height:75%;
+}
+.proud-right{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: 50%;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.proud-right button{
+    width: fit-content;
+    background-color: aqua;
+    padding: 0.7rem 1rem;
+    border-radius: 12px;
+    outline: none;
+}
+.proud-right button:hover{
+   background-color: rgb(117, 162, 212);
+}

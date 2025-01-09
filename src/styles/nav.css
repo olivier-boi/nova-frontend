@@ -1,0 +1,57 @@
+.navbar {
+    padding: 1.3rem 5rem;
+    background-color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.logo span {
+    font-size: 2rem;
+    margin-top: 0.3rem;
+    color: rgb(32, 151, 111);
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none !important;
+}
+.nav-link li a {
+    text-decoration: none;
+    color: black;
+}
+
+.login-btn {
+    padding: 0.5rem 1rem;
+    color: rgb(99, 227, 250);
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 70px;
+}
+
+.login-btn a {
+    text-decoration: none;
+    /* background-color: aquamarine; */
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+
+.contents {
+    display: flex;
+    gap: 2rem;
+
+}

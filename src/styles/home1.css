@@ -1,0 +1,23 @@
+
+
+
+.welcome-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 0 5rem;
+    
+
+}
+.left-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.left-container button{
+    width: fit-content;
+    background-color: aqua;
+    padding: 0.7rem 1rem;
+    border-radius: 12px;
+    outline: none;
+}

@@ -1,0 +1,24 @@
+.card-wraper{
+
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+
+}
+.card{
+    background-color: aliceblue;
+}
+.content-wraper{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+ .image-container{
+    height: 50%;
+}
+body{
+    background-color: gray;
+}
